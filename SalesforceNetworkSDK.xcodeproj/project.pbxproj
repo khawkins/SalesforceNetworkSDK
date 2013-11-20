@@ -234,8 +234,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(BUILT_PRODUCTS_DIR)/Headers",
-					"$(SRCROOT)/dependencies/**",
+					"\"$(BUILT_PRODUCTS_DIR)/Headers\"",
+					"\"$(SRCROOT)/dependencies\"/**",
 				);
 				INSTALL_PATH = /;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
@@ -268,8 +268,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(BUILT_PRODUCTS_DIR)/Headers",
-					"$(SRCROOT)/dependencies/**",
+					"\"$(BUILT_PRODUCTS_DIR)/Headers\"",
+					"\"$(SRCROOT)/dependencies\"/**",
 				);
 				INSTALL_PATH = /;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
@@ -292,9 +292,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SalesforceNetworkSDK/SalesforceNetworkSDK-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/dependencies/**",
-					"$(PROJECT_DIR)/../../external/ThirdPartyDependencies/**",
-					"$(PROJECT_DIR)/../../external/MKNetworkKit/MKNetworkKit/**",
+					"\"$(SRCROOT)/dependencies\"/**",
+					"\"$(PROJECT_DIR)/../../external/ThirdPartyDependencies\"/**",
+					"\"$(PROJECT_DIR)/../../external/MKNetworkKit/MKNetworkKit\"/**",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,9 +313,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SalesforceNetworkSDK/SalesforceNetworkSDK-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/dependencies/**",
-					"$(PROJECT_DIR)/../../external/ThirdPartyDependencies/**",
-					"$(PROJECT_DIR)/../../external/MKNetworkKit/MKNetworkKit/**",
+					"\"$(SRCROOT)/dependencies\"/**",
+					"\"$(PROJECT_DIR)/../../external/ThirdPartyDependencies\"/**",
+					"\"$(PROJECT_DIR)/../../external/MKNetworkKit/MKNetworkKit\"/**",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
